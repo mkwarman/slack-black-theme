@@ -126,7 +126,7 @@ ts-jumper input[type="text"],
 .p-channel_sidebar__channel,
 .p-channel_sidebar__link {
   border-radius: 0 15px 15px 0;
-  height: 24px !important;
+/*  height: 24px !important;  */
 }
 
 .p-channel_sidebar__channel a {
@@ -135,7 +135,7 @@ ts-jumper input[type="text"],
 
 .p-channel_sidebar__static_list div {
    margin-right: 2px;
-   height: 24px !important;
+/*   height: 24px !important; */
 }
 
 .p-channel_sidebar__channel--selected,
@@ -156,7 +156,7 @@ ts-jumper input[type="text"],
    background-color: var(--background-hover) !important;
    border-color: transparent;
    color: var(--text) !important;
-   height: 24px !important;
+/*   height: 24px !important; */
 }
 
 .p-channel_sidebar__close_container {
