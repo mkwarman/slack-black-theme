@@ -15,25 +15,35 @@ limitations under the License.
 */
 
 :root {
-   /* Modify these to change your theme colors: */
-   --primary: #09F;
-   --text: #DDD;
-   --background: #111;
-   --background-elevated: #222;
+  --primary: #09F;
+  --primary-darker: #0576B9;
 
-   /* These should be less important: */
-   --background-hover: rgba(255, 255, 255, 0.1);
-   --background-light: #AAA;
-   --background-bright: #FFF;
+  --text: #CCC;
+  --text-darker-1: #AAA;
+  --text-darker-2: #999;
+  --text-darker-3: #888;
+  --text-darker-4: #666;
+  --text-darker-5: #555;
+  --text-darker-6: #444;
+  --text-darker-7: #333;
 
-   --border-dim: #666;
-   --border-bright: var(--primary);
+  --mention-primary: black;
+  --mention-secondary: #05B805;
 
-   --text-bright: #FFF;
-   --text-special: var(--primary);
+  --background: #080808;
+  --background-light: #CCC;
+  --background-elevated: #222;
+  --background-hover: rgba(255, 255, 255, 0.1);
+  --background-bright: #FFF;
 
-   --scrollbar-background: #000;
-   --scrollbar-border: var(--primary);
+  --border-dim: #666;
+  --border-bright: var(--primary);
+
+  --text-bright: #FFF;
+  --text-special: var(--primary);
+
+  --scrollbar-background: #000;
+  --scrollbar-border: var(--primary);
 }
 
 h1, h2, h3, h4 {
@@ -980,4 +990,207 @@ ts-jumper, ts-jumper.active {
 }
 ts-jumper ts-jumper-container {
   box-shadow: 0 5px 20px rgba(0,0,0,1);
+}
+
+div.c-virtual_list__scroll_container {
+  background-color: black !important;
+}
+.p-message_pane .c-message_list:not(.c-virtual_list--scrollbar), .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider {
+  z-index: 0;
+}
+.c-message_attachment__author {
+  color: var(--text-darker-fix-pls);
+}
+span.c-message__body {
+  color: var(--text);
+}
+div.c-message__body--automated {
+  //color: #909085;
+  color: var(--text-darker-2);
+}
+div.c-message--light .c-message__sender .c-message__sender_link {
+  color: var(--text-darker-4);
+}
+button.c-reaction {
+  background: #222;
+  border: 1px solid #666;
+}
+.c-reaction:focus, .c-reaction:hover {
+  border-color: var(--primary);
+}
+button.c-reaction--reacted {
+  border-color: var(--primary-darker);
+}
+.c-reaction--reacted .c-reaction__count {
+  color: var(--primary-darker) !important;
+}
+span.c-message_attachment__text {
+  color: var(--text-darker-3);
+}
+.menu_member_header .member_details .member_current_status,
+.menu_member_header .member_details .member_timezone_value {
+  color: var(--text-darker-2);
+}
+.texty_legacy .ql-placeholder {
+  color: inherit;
+}
+.c-member_slug--link,
+.c-mrkdwn__user_group--link,
+.app_preview_link_slug,
+.internal_member_link,
+.internal_user_group_link {
+  background: #333;
+  color: var(--primary);
+}
+.c-member_slug--mention,
+a.c-member_slug--mention {
+  background: var(--mention-secondary);
+  color: var(--mention-primary);
+}
+.c-mrkdwn__broadcast--mention,
+.c-mrkdwn__highlight,
+.c-mrkdwn__mention,
+.c-mrkdwn__user_group--mention {
+  background: var(--mention-secondary);
+  color: var(--mention-primary);
+}
+.p-message_pane__foreword__description,
+.p-message_pane__limited_history_alert {
+  color: var(--text-darker-4);
+}
+.c-unified_member__display-name--large,
+.c-unified_member__title--large {
+  color: var(--text-darker-4);
+}
+.c-unified_member__other-names--large {
+  color: var(--text-darker-5);
+}
+#channel_browser .channel_browser_row_header {
+  color: var(--text);
+}
+div.channel_browser_channel_purpose.sk_black {
+  color: var(--text-darker-1);
+}
+#channel_browser #channel_list_container:not(.keyboard_active).not_scrolling .channel_browser_row:hover, #channel_browser .channel_browser_row.highlighted,
+#im_browser #im_list_container:not(.keyboard_active).not_scrolling .im_browser_row:not(.disabled_dm):hover, #im_browser .im_browser_row.highlighted {
+  background: #333;
+  border: 1px solid #CCC;
+}
+#channel_browser .channel_browser_divider {
+  color: var(--text);
+  background: #333;
+}
+#footer_archives_preview {
+  background-color: #333;
+}
+.c-archive_footer__title {
+  color: var(--text);
+}
+.c-menu {
+  background-color: var(--background-light);
+}
+.c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight),
+.c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight),
+.c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {
+  background-color: #222 !important;
+}
+.tab_complete_ui {
+  background: var(--background-light);
+}
+.c-team__name--small, .c-unified_member__name--small, .c-usergroup__name--small {
+  color: var(--text-darker-6);
+}
+.p-message_pane .p-message_pane__top_banners:not(:empty)+div .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .p-message_pane__top_banners:not(:empty)+div .c-message_list:not(.c-virtual_list--scrollbar):before {
+  box-shadow: none;
+}
+#share-dialog-message-input .ql-editor p {
+  color: var(--text-darker-7);
+}
+.c-message__editor__input_container .c-message__editor__input {
+  background: #222;
+}
+.c-message--highlight, .c-message--highlight_yellow_bg {
+  background: #555533;
+}
+#details_tab .feature_sli_channel_insights .channel_created_section .creator_link,
+#details_tab .feature_sli_channel_insights .channel_purpose_section .channel_purpose_text {
+  color: var(--text-darker-2);
+}
+.c-team__display-name,
+.c-unified_member__display-name,
+.c-usergroup__handle {
+  color: var(--text-darker-3);
+}
+#details_tab .section_content {
+  color: var(--text-darker-2);
+}
+.c-message_attachment__body {
+  color: var(--text-darker-3);
+}
+.sidebar_menu_list_item {
+  color: var(--text-darker-1);
+}
+.p-file_details__share_channel {
+  color: var(--text-darker-1);
+}
+.c-message--ephemeral, .c-message--sli_highlight_negative {
+  background: #1C1C1C;
+}
+#msg_input_message {
+  background-color: #222;
+}
+.c-message_attachment__pretext {
+  color: var(--text-darker-2);
+}
+.p-channel_insights__channel .channel_link {
+  color: var(--text-darker-2);
+}
+.p-channel_insights__drawer_title {
+  color: var(--text);
+}
+.channel_prefs_body__section_header_title {
+  color: var(--text);
+}
+.channel_prefs__muting_checkbox_label:not(.subtle_silver) {
+  color: inherit !important;
+}
+.channel_prefs_notifications_table {
+  color: inherit !important;
+}
+.notification_prefs_icon:before {
+  color: inherit !important;
+}
+.c-message_actions__container {
+  background: var(--background-light);
+}
+.p-channel_sidebar__channel--im.p-channel_sidebar__channel--selected .c-presence, .p-channel_sidebar__channel--im-slackbot.p-channel_sidebar__channel--selected:before {
+  color: var(--primary) !important;
+}
+#member_preview_scroller .member_details .member_name_and_presence .member_name, #member_preview_web_container .member_details .member_name_and_presence .member_name, .menu_member_header .member_details .member_name_and_presence .member_name {
+  color: var(--text);
+}
+#member_preview_scroller .member_details .member_title, #member_preview_web_container .member_details .member_title, .menu_member_header .member_details .member_title {
+  color: var(--text-darker-3);
+}
+#member_preview_scroller .member_data_table tr, #member_preview_web_container .member_data_table tr, #team_list .member_data_table tr, .menu_member_header .member_data_table tr {
+  color: var(--text);
+}
+#member_preview_scroller .member_data_table a:not(.current_status_preset_option):not(.current_status_presets_edit_link):not(.member_details_manage_link), #member_preview_web_container .member_data_table a:not(.current_status_preset_option):not(.current_status_presets_edit_link):not(.member_details_manage_link), #team_list .member_data_table a:not(.current_status_preset_option):not(.current_status_presets_edit_link):not(.member_details_manage_link), .menu_member_header .member_data_table a:not(.current_status_preset_option):not(.current_status_presets_edit_link):not(.member_details_manage_link) {
+  /* member preview links */
+  color: var(--primary)
+}
+#team_tab #member_preview_scroller .feature_custom_status_expiry.member_details .member_name {
+  color: var(--text);
+}
+#reply_container.upload_in_threads .inline_message_input_container {
+  background-color: initial;
+}
+.tsf_output {
+  color: var(--text-darker-1);
+}
+.app_profile .app_profile_section_header {
+  color: var(--text);
+}
+span.c-message_kit__text {
+  color: var(--text);
 }
