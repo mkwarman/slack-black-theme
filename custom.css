@@ -1272,3 +1272,7 @@ span.c-channel_name.p-threads_flexpane__header_channel_name {
 .p-threads_footer__input--legacy .p-message_input_plus {
   background-color: var(--background);
 }
+
+.p-threads_footer__broadcast_label .c-label__text {
+  color: var(--text-darker-1);
+}
