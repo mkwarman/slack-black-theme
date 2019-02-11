@@ -1262,5 +1262,13 @@ span.c-message_kit__text {
 }
 
 span.c-channel_name.p-threads_flexpane__header_channel_name {
-    color: var(--text-darker-1);
+  color: var(--text-darker-1);
+}
+
+.p-threads_footer__input .p-message_input_field.focus {
+  background-color: var(--background);
+}
+
+.p-threads_footer__input--legacy .p-message_input_plus {
+  background-color: var(--background);
 }
