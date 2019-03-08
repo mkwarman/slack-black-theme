@@ -1292,3 +1292,7 @@ button.c-button-unstyled.c-reaction.c-reaction--reacted.c-reaction--feature_new_
 .c-reaction--feature_new_reactions .c-reaction__count {
   color: var(--text-darker-2);
 }
+
+span.c-message_kit__file__meta__text {
+  color: var(--text-darker-4);
+}
