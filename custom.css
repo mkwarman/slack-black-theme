@@ -1284,3 +1284,11 @@ span.c-channel_name.p-threads_flexpane__header_channel_name {
 .p-threads_footer__input--legacy .p-message_input_field .ql-placeholder {
   color: var(--text);
 }
+
+button.c-button-unstyled.c-reaction.c-reaction--reacted.c-reaction--feature_new_reactions {
+  background-color: var(--background);
+}
+
+.c-reaction--feature_new_reactions .c-reaction__count {
+  color: var(--text-darker-2);
+}
