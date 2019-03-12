@@ -1296,3 +1296,19 @@ button.c-button-unstyled.c-reaction.c-reaction--reacted.c-reaction--feature_new_
 span.c-message_kit__file__meta__text {
   color: var(--text-darker-4);
 }
+
+.menu_member_header .member_details .member_current_status a, .menu_member_header .member_details .member_timezone_value a {
+  color: var(--text-special);
+}
+
+#team_tab #member_preview_scroller .member_details .member_name {
+  color: var(--text-special);
+}
+
+.btn_link {
+  color: var(--text-special);
+}
+
+#fs_modal.prefs_modal legend {
+  color: var(--text);
+}
