@@ -1312,3 +1312,7 @@ span.c-message_kit__file__meta__text {
 #fs_modal.prefs_modal legend {
   color: var(--text);
 }
+
+span.c-reaction__count {
+  color: var(--text-darker-2);
+}
