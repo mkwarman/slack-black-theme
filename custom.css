@@ -1316,3 +1316,11 @@ span.c-message_kit__file__meta__text {
 span.c-reaction__count {
   color: var(--text-darker-2);
 }
+
+.p-threads_view__default_background {
+  background-color: var(--background);
+}
+
+.p-threads_view_reply--new_reply {
+  background: var(--background-elevated);
+}
