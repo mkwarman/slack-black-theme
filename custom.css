@@ -1324,3 +1324,8 @@ span.c-reaction__count {
 .p-threads_view_reply--new_reply {
   background: var(--background-elevated);
 }
+
+span.c-channel_name.p-threads_view_header__channel_name i,
+span.c-channel_name.p-threads_view_header__channel_name span {
+  color: var(--text-special);
+}
