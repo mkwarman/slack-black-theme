@@ -1329,3 +1329,7 @@ span.c-channel_name.p-threads_view_header__channel_name i,
 span.c-channel_name.p-threads_view_header__channel_name span {
   color: var(--text-special);
 }
+
+.c-icon_button--light, .c-icon_button--light.c-button-unstyled, .c-icon_button--light:link {
+  color: #616161;
+}
