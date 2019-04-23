@@ -1337,3 +1337,7 @@ span.c-channel_name.p-threads_view_header__channel_name span {
 .p-threads_flexpane__header_channel_name {
   color: var(--text-special);
 }
+
+.c-icon_button--light.c-button-unstyled:hover, .c-icon_button--light:hover, .c-icon_button--light:link:hover {
+  color: #0b4c8c;
+}
