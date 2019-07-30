@@ -1341,3 +1341,47 @@ span.c-channel_name.p-threads_view_header__channel_name span {
 .c-icon_button--light.c-button-unstyled:hover, .c-icon_button--light:hover, .c-icon_button--light:link:hover {
   color: #0b4c8c;
 }
+
+.c-message--last {
+  margin-bottom: 
+}
+
+.p-workspace--classic-nav .p-workspace__primary_view_footer {
+  background: var(--background);
+  padding-top: 10px
+}
+
+.p-workspace__input .p-message_input_field {
+  background: var(--background-elevated);
+}
+
+.p-classic_nav {
+  background: var(--background-elevated);
+}
+
+.p-classic_nav__model__title__name__button,
+.p-classic_nav__model__title__info,
+.p-classic_nav__model__button,
+.p-classic_nav__right__button,
+.p-classic_nav__right__search__icon {
+  color: var(--text);
+}
+
+.p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before {
+  background: var(--background-elevated);
+}
+
+.c-message_list__day_divider__label__pill {
+  background: var(--background-elevated);
+  color: var(--text)
+}
+
+.p-classic_nav__right__search__placeholder {
+  color: var(--text);
+  background: var(--text-darker-6);
+}
+
+.p-classic_nav__right__search:hover .p-classic_nav__right__search__icon,
+.p-classic_nav__right__search:hover .p-classic_nav__right__search__placeholder {
+  color: var(--text-special);
+}
