@@ -1385,3 +1385,7 @@ span.c-channel_name.p-threads_view_header__channel_name span {
 .p-classic_nav__right__search:hover .p-classic_nav__right__search__placeholder {
   color: var(--text-special);
 }
+
+.p-workspace__input .p-message_input_field .ql-placeholder {
+  color: var(--text);
+}
