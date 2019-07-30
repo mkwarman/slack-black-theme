@@ -1389,3 +1389,7 @@ span.c-channel_name.p-threads_view_header__channel_name span {
 .p-workspace__input .p-message_input_field .ql-placeholder {
   color: var(--text);
 }
+
+.p-classic_nav__model__title__name--dim {
+  color: var(--text-darker-4);
+}
