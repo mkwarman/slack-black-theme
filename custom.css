@@ -1378,7 +1378,15 @@ span.c-channel_name.p-threads_view_header__channel_name span {
 
 .p-classic_nav__right__search__placeholder {
   color: var(--text);
-  background: var(--text-darker-6);
+}
+
+.p-classic_nav__right__search {
+  border-color: var(--text-darker-3);
+  background: var(--text-darker-7);
+}
+
+.p-classic_nav__right__search:hover {
+  border-color: var(--text-darker-4);
 }
 
 .p-classic_nav__right__search:hover .p-classic_nav__right__search__icon,
