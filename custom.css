@@ -1346,7 +1346,7 @@ span.c-channel_name.p-threads_view_header__channel_name span {
   margin-bottom: 
 }
 
-.p-workspace--classic-nav .p-workspace__primary_view_footer {
+.p-workspace--classic-nav .workspace__primary_view_footer {
   background: var(--background);
   padding-top: 10px
 }
