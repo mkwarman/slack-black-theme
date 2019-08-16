@@ -166,6 +166,20 @@ Instead of launching Slack normally, you'll need to enable developer mode to be 
 
 * Windows: (todo)
 
+# For Slack 4.0:
+
+```
+mv .\app.asar.unpacked app.asar.unpacked.bak
+npx asar extract .\app.asar app.asar.unpacked
+mv app.asar app.asar.bak
+```
+
+Add document.onload bit to ssbinterop
+
+```
+npx asar pack .\app.asar.unpacked app.asar
+```
+
 # License
 
 Apache 2.0
